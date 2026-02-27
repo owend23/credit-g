@@ -1,0 +1,28 @@
+[project]
+name = "credit-g"
+version = "0.1.0"
+description = "End-to-end ML pipeline for credit risk classification on the German Credit dataset"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "dotenv>=0.9.9",
+    "fastapi>=0.133.1",
+    "ipython>=9.10.0",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.8",
+    "openml>=0.15.1",
+    "optuna>=4.7.0",
+    "pandera>=0.29.0",
+    "plotly>=6.5.2",
+    "pydantic>=2.12.5",
+    "scikit-learn>=1.8.0",
+    "seaborn>=0.13.2",
+    "uvicorn>=0.41.0",
+    "xgboost>=3.2.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.2",
+    "ruff>=0.15.4",
+]
