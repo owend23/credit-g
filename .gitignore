@@ -11,7 +11,6 @@ data/raw/*
 data/processed/*
 data/features/*
 artifacts/models/*
-artifacts/reports/*
 !**/.gitkeep
 .vscode/
 .idea/
